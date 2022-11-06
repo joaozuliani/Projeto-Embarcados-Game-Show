@@ -1,11 +1,10 @@
-# Projeto-Embarcados-Game-Show
+# Projeto- Sistemas Embarcados 2022 - Game-Show
+Projeto desenvolvido na discipla de Sistemas Embarcados, temos como objetivo por em prática os conhecimentos obtidos durante as aulas.
 
-# Game Show
-
-## Projeto 5 - Passa ou Repassa
+# Projeto do grupo Game Show
 
 ### Descrição Resumida
-Esse projeto é sobre a infraestrutura de um jogo televisivo onde há uma questão e cada participante ou time deve ser o primeiro a apertar seu respectivo botão para responder à questão apresentada.
+Escolhemos o projeto 5 - Passa ou Repassa que é sobre a infraestrutura de um jogo televisivo onde há uma questão e cada participante ou time deve ser o primeiro a apertar seu respectivo botão para responder à questão apresentada.
 
 ### Hardware Computacional
 Utilizaremos **VIOLA** + **TF Toradex**.
