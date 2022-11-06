@@ -7,11 +7,11 @@ Projeto desenvolvido na disciplinaa de Sistemas Embarcados, com objetivo por em 
 Escolhemos o projeto 5 - Passa ou Repassa - que é sobre a infraestrutura de um jogo televisivo onde há uma questão e cada participante ou time deve ser o primeiro a apertar seu respectivo botão para responder à questão apresentada.
 
 ### Hardware Computacional
-Utilizaremos **Viola Carrier Board** + **Colibri VF50**.
-#### Viola Carrier Board
+
+#### __Viola Carrier Board__
 É uma placa de suporte de baixo custo, propícia para aplicações de baixo desempenho. Mais informações podem ser obtidas em [Viola Carrier Board (rev 1.2)](https://www.toradex.com/pt-br/products/carrier-board/viola-carrier-board)
 
-#### Colibri VF50
+#### __Colibri VF50__
 O Colibri VF50 pertence a família de computadores embarcados em módulos módulos ARM Colibri. É um computador de módulo SoC (System-on-Chip) single core, otimizado para aplicações simples, como a que desejamos. Mais informações podem ser obtidas em [Viola Carrier Board (rev 1.2)](https://www.toradex.com/pt-br/products/carrier-board/viola-carrier-board)
 
 ### Hardware Mecatrônico
