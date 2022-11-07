@@ -14,10 +14,18 @@ O __Viola Carrier Board__ é uma placa de suporte de baixo custo, propícia para
 ### __Colibri VF50__
 O __Colibri VF50__ pertence a família de computadores embarcados em módulos módulos ARM Colibri. É um computador de módulo SoC (System-on-Chip) single core, otimizado para aplicações simples, como a que desejamos. Mais informações podem ser obtidas em  [Colibri VF50](https://www.toradex.com/pt-br/computer-on-modules/colibri-arm-family/nxp-freescale-vybrid-vf5xx)
 ### Hardware Mecatrônico
-Utilizaremos **Botões e LEDs** no projeto.
+Utilizaremos **Botões e LEDs** no projeto, como demonstrado no esquemático. Além disso, alguns outros compontentes são necessários para o funcionamento, como resistores e fonte de alimentação para o circuito
 
-### Software Mínimo Adotado
-**Linux** e **C**.
+## Softwares
+### Ubuntu versão XX.YY
+
+### Toolchain Colibri VF50
+
+### Linux/Yocto Project
+
+## Linguagem de programação
+
+### C
 
 ## Comandos para editar o README.md:
 [Comandos README](https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8)
