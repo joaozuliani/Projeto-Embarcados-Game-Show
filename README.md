@@ -30,8 +30,8 @@ O Linux/Yocto Project é o sistema operacional embarcado na placa da Toradex uti
 
 ### C - Uma das principais linguagens de alto nível para programação para sistemas embarcados.
 
-#### Comandos para editar o README.md:
+### Comandos para editar o README.md:
 [Comandos README](https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8)
 
-#### Lista de Comandos Úteis do Git:
+### Lista de Comandos Úteis do Git:
 [Comandos Git](https://comandosgit.github.io/)
