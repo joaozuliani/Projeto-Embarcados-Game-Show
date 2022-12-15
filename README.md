@@ -18,6 +18,8 @@ Utilizaremos **Botões e LEDs** no projeto, como demonstrado no esquemático. Al
 
 ## Softwares
 ### Ubuntu versão XX.YY
+O Ubuntu é um sistema operacional Linux completo, disponibilizado gratuitamente para download [no site](https://ubuntu.com/)
+A instalação do SO não será detalhada devido a peculiaridades de cada hardware. 
 
 ### Toolchain Colibri VF50
 
@@ -25,7 +27,7 @@ Utilizaremos **Botões e LEDs** no projeto, como demonstrado no esquemático. Al
 
 ## Linguagem de programação
 
-### C
+### C - Uma das principais linguagens de alto nível para programação para sistemas embarcados.
 
 ## Comandos para editar o README.md:
 [Comandos README](https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8)
