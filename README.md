@@ -4,7 +4,7 @@ Projeto desenvolvido na disciplina de Sistemas Embarcados, com objetivo por em p
 # Projeto Game Show
 
 ## Descrição Resumida
-Escolhemos o projeto 5 - Passa ou Repassa - que é sobre a infraestrutura de um jogo televisivo onde há uma questão e cada participante ou time deve ser o primeiro a apertar seu respectivo botão para responder à questão apresentada.
+Escolhemos o projeto 5 - Passa ou Repassa - que é sobre a infraestrutura de um jogo televisivo onde há uma questão e cada participante ou time deve ser o primeiro a apertar seu respectivo botão para responder à questão apresentada. Abaixo temos uma montegam esquemática do funcionamento:
 
 ## Hardware Computacional
 
