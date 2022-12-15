@@ -18,8 +18,7 @@ Utilizaremos **Botões e LEDs** no projeto, como demonstrado no esquemático. Al
 
 ## Softwares
 ### Ubuntu versão XX.YY
-O Ubuntu é um sistema operacional Linux completo, disponibilizado gratuitamente para download [no site](https://ubuntu.com/)
-A instalação do SO não será detalhada devido a peculiaridades de cada hardware. 
+O Ubuntu é um sistema operacional Linux completo, disponibilizado gratuitamente para download [no site](https://ubuntu.com/). A instalação do SO não será detalhada.
 
 ### Toolchain Colibri VF50
 
