@@ -1,5 +1,5 @@
 # Projeto- Sistemas Embarcados 2022 - Game-Show
-Projeto desenvolvido na disciplinaa de Sistemas Embarcados, com objetivo por em prática os conhecimentos obtidos durante as aulas.
+Projeto desenvolvido na disciplina de Sistemas Embarcados, com objetivo por em prática os conhecimentos obtidos durante as aulas.
 
 # Projeto Game Show
 
