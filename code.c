@@ -9,6 +9,15 @@ Authors (e-mail):   Gabriel Dacol (gabrieldacol@usp.br) nUSP 11232462
 
 */
 
+/*Coisas que faltam fazer no código:
+- definir as funções write, close, read e usleep (talvez com int)
+- comentar o funcionamento de cada ffunção
+- modular o código
+- jogar para a placa
+- testar
+- mais algo?
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
