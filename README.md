@@ -8,6 +8,8 @@ Escolhemos o projeto 5 - Passa ou Repassa - que é sobre a infraestrutura de um 
 
 ![montagemembarcado](https://user-images.githubusercontent.com/80857074/208327480-41a2d2ed-dd0f-486d-82e7-e23f93287538.png)
 
+O seu funcionamento é simples, após autorizado os dois participantes devem abertar seus respectivos botões. Quem apertar antes será mostrado pelo LED. O terceiro botão presente tem como função apagar o LED aceso e permitir que a disputa ocorra novamente.
+
 
 ## Hardware Computacional
 ### Viola Carrier Board
