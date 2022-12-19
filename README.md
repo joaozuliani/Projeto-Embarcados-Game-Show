@@ -30,8 +30,10 @@ O Linux/Yocto Project é o sistema operacional embarcado na placa da Toradex uti
 
 ### C - Uma das principais linguagens de alto nível para programação para sistemas embarcados.
 
-## Comandos para editar o README.md:
+## Bibliografia:
 ### [Comandos README](https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8)
-
-## Lista de Comandos Úteis do Git:
 ### [Comandos Git](https://comandosgit.github.io/)
+### [Função em C](https://www.geeksforgeeks.org/strcat-function-in-c-c-with-example/)
+### [Função em C](https://www.geeksforgeeks.org/readwrite-structure-file-c/?ref=rp)
+### [Função em C](https://www.geeksforgeeks.org/strcpy-in-c-cpp/)
+### [Função em C](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)
