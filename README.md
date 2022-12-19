@@ -27,7 +27,7 @@ O Ubuntu é um sistema operacional Linux completo, disponibilizado gratuitamente
 
 ### Toolchain Colibri VF50
 A Toolchain Colibri VF50 permiti a realização da compilação entre o sistema de base e do sistema embarcado, respectivamente o Ubuntu e o Linux/Yocto Project.
-A instalação pode ser feita por meia do [tutorial](https://developer-archives.toradex.com/getting-started/module-2-my-first-hello-world-in-c/configure-toolchain-colibri-vfxx?som=colibri-vf50&board=iris-carrier-board&os=linux&desktop=linux)
+A instalação pode ser feita por meio do [tutorial](https://developer-archives.toradex.com/getting-started/module-2-my-first-hello-world-in-c/configure-toolchain-colibri-vfxx?som=colibri-vf50&board=iris-carrier-board&os=linux&desktop=linux)
 
 ### Linux/Yocto Project
 O Linux/Yocto Project é o sistema operacional embarcado na placa da Toradex utilizada. No [site](https://developer-archives.toradex.com/getting-started/module-1-from-the-box-to-the-shell/update-the-linux-image-iris-carrier-board-colibri-vfxx?som=colibri-vf50&board=iris-carrier-board&os=linux&desktop=linux). 
