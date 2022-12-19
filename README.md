@@ -36,4 +36,4 @@ O Linux/Yocto Project é o sistema operacional embarcado na placa da Toradex uti
 ### [Função de Strcat](https://www.geeksforgeeks.org/strcat-function-in-c-c-with-example/)
 ### [Função de Readwrite](https://www.geeksforgeeks.org/readwrite-structure-file-c/?ref=rp)
 ### [Função de Strcpy](https://www.geeksforgeeks.org/strcpy-in-c-cpp/)
-### [Função de Input-output system calls](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)
+### [Comandos de Input-output system calls](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)
