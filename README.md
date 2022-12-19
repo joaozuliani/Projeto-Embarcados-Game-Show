@@ -10,7 +10,6 @@ Escolhemos o projeto 5 - Passa ou Repassa - que é sobre a infraestrutura de um 
 
 Quem apertar primeiro será mostrado pelo LED que for aceso. O terceiro botão presente tem como função apagar o LED aceso e permitir que a disputa ocorra novamente.
 
-
 ## Hardware Computacional
 ### Viola Carrier Board
 O __Viola Carrier Board__ é uma placa de suporte de baixo custo, propícia para aplicações de baixo desempenho. Mais informações podem ser obtidas em [Viola Carrier Board](https://www.toradex.com/pt-br/products/carrier-board/viola-carrier-board)
@@ -19,7 +18,7 @@ O __Viola Carrier Board__ é uma placa de suporte de baixo custo, propícia para
 O __Colibri VF50__ pertence a família de computadores embarcados em módulos módulos ARM Colibri. É um computador de módulo SoC (System-on-Chip) single core, otimizado para aplicações simples, como a que desejamos. Mais informações podem ser obtidas em  [Colibri VF50](https://www.toradex.com/pt-br/computer-on-modules/colibri-arm-family/nxp-freescale-vybrid-vf5xx)
 
 ## Hardware Mecatrônico
-Utilizaremos **Botões e LEDs** no projeto, como demonstrado no esquemático. Além disso, alguns outros compontentes são necessários para o funcionamento, como resistores e fonte de alimentação para o circuito
+Utilizaremos **3 botões e 2 LEDs** no projeto, como demonstrado no esquemático. Além disso, alguns outros compontentes são necessários para o funcionamento, como resistores e fonte de alimentação para o circuito
 
 ## Softwares
 ### Ubuntu versão 20.04
