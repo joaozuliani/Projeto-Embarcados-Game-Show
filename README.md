@@ -33,7 +33,8 @@ O Linux/Yocto Project é o sistema operacional embarcado na placa da Toradex uti
  da Toradex tem disponibilizado um tutorial de instalação.
 
 ## Linguagem de programação
-### C - Uma das principais linguagens de alto nível para programação de sistemas embarcados.
+### C  
+Uma das principais linguagens de alto nível para programação de sistemas embarcados.
 
 ## Bibliografia:
 ### [Comandos README](https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8)
