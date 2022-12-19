@@ -17,7 +17,7 @@ O __Colibri VF50__ pertence a família de computadores embarcados em módulos m�
 Utilizaremos **Botões e LEDs** no projeto, como demonstrado no esquemático. Além disso, alguns outros compontentes são necessários para o funcionamento, como resistores e fonte de alimentação para o circuito
 
 ## Softwares
-### Ubuntu versão XX.YY
+### Ubuntu versão 20.04
 O Ubuntu é um sistema operacional Linux completo, disponibilizado gratuitamente para download [no site](https://ubuntu.com/). A instalação do SO não será detalhada.
 
 ### Toolchain Colibri VF50
@@ -33,7 +33,7 @@ O Linux/Yocto Project é o sistema operacional embarcado na placa da Toradex uti
 ## Bibliografia:
 ### [Comandos README](https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8)
 ### [Comandos Git](https://comandosgit.github.io/)
-### [Função em C](https://www.geeksforgeeks.org/strcat-function-in-c-c-with-example/)
-### [Função em C](https://www.geeksforgeeks.org/readwrite-structure-file-c/?ref=rp)
-### [Função em C](https://www.geeksforgeeks.org/strcpy-in-c-cpp/)
-### [Função em C](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)
+### [Função de Strcat](https://www.geeksforgeeks.org/strcat-function-in-c-c-with-example/)
+### [Função de Readwrite](https://www.geeksforgeeks.org/readwrite-structure-file-c/?ref=rp)
+### [Função de Strcpy](https://www.geeksforgeeks.org/strcpy-in-c-cpp/)
+### [Função de Input-output system calls](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)
