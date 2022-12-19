@@ -6,6 +6,9 @@ Projeto desenvolvido na disciplina de Sistemas Embarcados, com objetivo por em p
 ## Descrição Resumida
 Escolhemos o projeto 5 - Passa ou Repassa - que é sobre a infraestrutura de um jogo televisivo onde há uma questão e cada participante ou time deve ser o primeiro a apertar seu respectivo botão para responder à questão apresentada. Abaixo temos uma montegam esquemática do funcionamento:
 
+![montagemembarcado](https://user-images.githubusercontent.com/80857074/208327480-41a2d2ed-dd0f-486d-82e7-e23f93287538.png)
+
+
 ## Hardware Computacional
 ### Viola Carrier Board
 O __Viola Carrier Board__ é uma placa de suporte de baixo custo, propícia para aplicações de baixo desempenho. Mais informações podem ser obtidas em [Viola Carrier Board](https://www.toradex.com/pt-br/products/carrier-board/viola-carrier-board)
