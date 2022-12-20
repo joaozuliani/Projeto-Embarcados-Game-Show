@@ -8,10 +8,6 @@ Authors (e-mail):   Gabriel Dacol (gabrieldacol@usp.br) nUSP 11232462
                     Pedro Marolde (pedro.marolde@usp.br) nUSP 10786761
 */
 
-/*Coisas que faltam fazer no código:
-- jogar para a placa
-- testar
-*/
 
 #include <stdlib.h>
 #include <stdio.h>
