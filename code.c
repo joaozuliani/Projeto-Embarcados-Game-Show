@@ -2,20 +2,15 @@
 Creation Date: 10-10-2022
 Last Update: 12-16-2022
 Authors (e-mail):   Gabriel Dacol (gabrieldacol@usp.br) nUSP 11232462
-                    Gustavo Cassim (gustavocassim@usp.br) nUSP
+                    Gustavo Cassim (gustavocassim@usp.br) nUSP 11232476
                     João Lucas Zuliani (joao.lucas.zuliani@usp.br) nUSP 11316490
                     Mariana Paula (marianathompson@usp.br) nUSP 10696569
                     Pedro Marolde (pedro.marolde@usp.br) nUSP 10786761
-
 */
 
 /*Coisas que faltam fazer no código:
-- definir as funções write, close, read e usleep (talvez com int)
-- comentar o funcionamento de cada ffunção
-- modular o código
 - jogar para a placa
 - testar
-- mais algo?
 */
 
 #include <stdlib.h>
@@ -23,6 +18,7 @@ Authors (e-mail):   Gabriel Dacol (gabrieldacol@usp.br) nUSP 11232462
 #include <string.h>
 #include <fcntl.h>
 #include <stdbool.h>
+#include <unistd.h>
 
 #define MAX 100
 
@@ -38,16 +34,20 @@ char buffer[MAX];
 char ports[5][3] = {"46","47","48","88","89"};
 
 
-void writeLEDPort(char *port, char *value){
-    strcat(strcpy(buffer, path1), port);
-    strcat(strcpy(buffer, buffer), path3);
-    info = open(buffer, O_WRONLY);
-    write(info, value, 1);
-    close(info);
-}
-
-
 bool readButton(char *port){
+/* 
+    This function gets the button port information and 
+    appends it to the buffer. After that, the function 
+    opens and reads the buffer.
+
+    Parameter: 
+    Port (int) -> The buttom port's number.
+
+    Returns:
+    It returns true if the buttom were pressed and false 
+    if it weren't.
+*/
+
     char rd[3];
     strcat(strcpy(buffer, path1), port);
     strcat(strcpy(buffer, buffer), path3);    
@@ -59,7 +59,35 @@ bool readButton(char *port){
 }
 
 
+void writeLEDPort(char *port, char *value){
+/* 
+    This function gets port, path1, and path3 information 
+    and appends them to the buffer. After that, it opens 
+    the buffer and writes the value information.
+
+    Parameter: 
+    Port (int) -> The port's number.
+    Value (string) -> The value it'll be set in the LED.
+*/
+
+    strcat(strcpy(buffer, path1), port);
+    strcat(strcpy(buffer, buffer), path3);
+    info = open(buffer, O_WRONLY);
+    write(info, value, 1);
+    close(info);
+}
+
+
 void writeLED(int LedNumber, char *value){
+/* 
+    This function gets the parameters and calls writeLEDPort
+    function.
+
+    Parameter: 
+    LedNumber (int) -> The Led number, which 1 is for player
+    1 and 2 is for player 2.
+*/
+
     char gpio[3];
     switch (LedNumber){
     case 1:
@@ -79,6 +107,9 @@ void writeLED(int LedNumber, char *value){
 
 
 void resetGame(){
+/*
+    This function reset the game by setting the LEDs to 1.
+*/
     writeLED(1,"1");
     writeLED(2,"1");
     gameOver = false;
@@ -86,7 +117,12 @@ void resetGame(){
 
 
 int main(int argc, char *argv[]){
-    // export GPIO
+/*
+    This function is responsible for exporting the GPIO for 
+    all the port's numbers, configuring the inputs and 
+    outputs, and starting the game.
+*/
+
     int i;
     info = open(path0, O_WRONLY);
     for(i = 0; i < 5; i++){
@@ -95,8 +131,6 @@ int main(int argc, char *argv[]){
     }
     close(info);
 
-
-    // Configure as input
     for(i = 0; i < 3; i++){
         strcat(strcpy(buffer, path1), ports[i]);
         strcat(strcpy(buffer, buffer), path2);    
@@ -105,7 +139,6 @@ int main(int argc, char *argv[]){
         close(info);
     }
 
-    // Configure as output
     for(i = 3; i < 5; i++){
         strcat(strcpy(buffer, path1), ports[i]);
         strcat(strcpy(buffer, buffer), path2);    
@@ -115,6 +148,7 @@ int main(int argc, char *argv[]){
     }
 
     resetGame();
+    
     while(true){
         printf("\t\t%d\t%d\t\t\n", !gameOver, readButton(ports[0]));
         usleep(1000);
@@ -136,4 +170,3 @@ int main(int argc, char *argv[]){
  
     return EXIT_SUCCESS;
 }
-
