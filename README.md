@@ -36,6 +36,26 @@ O Linux/Yocto Project é o sistema operacional embarcado na placa da Toradex uti
 ### C  
 Uma das principais linguagens de alto nível para programação de sistemas embarcados.
 
+## Montagem e Funcionamento do Protótipo
+
+Montamos o sistema conforme demonstrado no esquema apresentado acima. Conectamos os LEDs, resistores e botões de acionamento em uma protoboard, e a protoboard na placa embarcada, utilizando os pinos corretos para isso.
+A montagem final pode ser observada na imagem abaixo:
+
+![ligacao](https://user-images.githubusercontent.com/83880690/209365536-2a3c8c10-7d15-4367-8c67-c188f3a861f9.jpeg)
+
+Após isso, enviamos o código presente em anexo nesse repositório Git (code.c) para a placa e fizemos o teste para ver se estava funcionando de acordo com o que havia sido proposto inicialmente para o projeto.
+O vídeo demonstrando seu funcionamento pode ser observado abaixo:
+
+![Funcionamento do Protótipo](https://user-images.githubusercontent.com/83880690/209365546-95502b3a-81e2-420f-ae61-72bf0c348f91.mp4)
+
+Dessa forma, concluimos que o projeto funcionou conforme o planejado, porém levantamos algumas questões que poderiam ser melhoradas futuramente e erros que poderiam ser evitados.
+
+### Propostas Futuras
+
+O primeiro problema que encontramos que poderia ser evitado acontece para o caso de 2 botões serem apertados ao mesmo tempo. Fizemos alguns testes e observamos que se os 2 jogadores apertam seus botões ao mesmo tempo não ocorre nenhum erro, pois acenderá o LED daquele que o sistema embarcado entender que apertou primeiro. Porém, se o botão de jogador e de reset forem acionados ao mesmo tempo, ocorre uma espécie de "bug" e os LEDs não se acendem por completo, ocasionando uma rápida falha no sistema. Chegamos à conclusão de que isso poderia ser evitado talvez com melhorias no código.
+
+Outra melhoria que pensamos que seria interessante é a modularização do código, separando algumas funç
+
 ## Bibliografia:
 ### [Comandos README](https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8)
 ### [Comandos Git](https://comandosgit.github.io/)
