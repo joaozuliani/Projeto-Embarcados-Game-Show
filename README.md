@@ -54,7 +54,7 @@ Dessa forma, concluimos que o projeto funcionou conforme o planejado, porém lev
 
 O primeiro problema que encontramos que poderia ser evitado acontece para o caso de 2 botões serem apertados ao mesmo tempo. Fizemos alguns testes e observamos que se os 2 jogadores apertam seus botões ao mesmo tempo não ocorre nenhum erro, pois acenderá o LED daquele que o sistema embarcado entender que apertou primeiro. Porém, se o botão de jogador e de reset forem acionados ao mesmo tempo, ocorre uma espécie de "bug" e os LEDs não se acendem por completo, ocasionando uma rápida falha no sistema. Chegamos à conclusão de que isso poderia ser evitado talvez com melhorias no código.
 
-Outra melhoria que pensamos que seria interessante é a modularização do código, separando algumas funç
+Outra melhoria que pensamos que seria interessante é a modularização do código, separando algumas funções em uma biblioteca individual criada especificamente para o código, de forma que ele ficasse mais limpo e de mais f
 
 ## Bibliografia:
 ### [Comandos README](https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8)
